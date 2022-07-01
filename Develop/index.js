@@ -64,8 +64,12 @@ function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(__dirname, "/example/", fileName), data)
 }
 
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
+// init application function
+function init() {
+    prompt(questions).then(answers => {
+        console.log(answers);
+        writeToFile("README.md", generateMarkdown((answers)));
+    })
+}
+// call init function
 init();
