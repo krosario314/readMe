@@ -44,13 +44,13 @@ const questions = [
     },
     {
         type: "input",
-        name: "report",
-        message: "How can I report any errors?"
+        name: "tests",
+        message: "Please enter any test instructions?"
     },
     {
         type: "input",
-        name: "tests",
-        message: "Please enter any test instructions?"
+        name: "report",
+        message: "How can I report any errors?"
     },
     {
         type: "input",
