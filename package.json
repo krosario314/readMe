@@ -1,0 +1,25 @@
+{
+  "name": "readme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krosario314/readMe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krosario314/readMe/issues"
+  },
+  "homepage": "https://github.com/krosario314/readMe#readme",
+  "dependencies": {
+    "inquirer": "^9.0.0"
+  }
+}

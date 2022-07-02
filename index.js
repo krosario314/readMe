@@ -1,8 +1,9 @@
 // added applications
+
 const fs = require("fs");
 const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
-const {prompt} = require("inquirer");
+const { prompt } = require("inquirer");
 
 // questions array
 const questions = [
