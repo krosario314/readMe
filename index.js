@@ -62,7 +62,7 @@ const questions = [
 
 // write readme function
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(__dirname, "/example/", fileName), data)
+    return fs.writeFileSync(path.join(__dirname, fileName), data)
 }
 
 // init application function
