@@ -9,7 +9,7 @@ Virtual family cookbook
 * [Installation](#-Installation)
 * [Usage](#-Usage)
 * [Contributing](#-Contributing)
-* [Contact](#-Contact-Information
+* [Contact](#-Contact-Information)
 * [License](#-Installation)
 * [Tests](#-Tests)
 * [Report](#-)
